@@ -59,7 +59,7 @@ export const DetailPage = () => {
     <div className="d-flex justify-content-center">
       <Card className="myCard my-3">
         {
-          myPost?.fileType === '' || myPost?.fileType === 'image' ?
+          myPost?.fileType === '' ? <></> : myPost?.fileType === 'image' ?
           <Card.Img variant="top" src={myPost?.file ? myPost?.file : 'https://apply.sts.net.pk/assets/images/default-upload-image.jpg'} /> : 
           <Video src={myPost?.file}>
             {(video, state, actions) => {

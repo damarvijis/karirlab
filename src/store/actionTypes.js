@@ -1,0 +1,10 @@
+export const SET_POST = "post/set";
+export const SET_TITLEPAGE = "pageTitle/set";
+export const SET_COMMENT = "comment/set";
+export const SET_TEMPPOST = "tempPost/set";
+export const SET_CATEGORIES = "categories/set";
+export const SET_FITLER_CATEGORIES = "filter_categories/set";
+export const SET_SORT = "sort/set";
+export const SET_EDITED_FILTER = "filter/edited/set";
+export const SET_DETAIL_POST = "detail_post/set";
+export const UPDATE_POST = "update/set";
